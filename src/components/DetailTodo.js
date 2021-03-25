@@ -18,8 +18,6 @@ const DetailTodo = ({ todo, isEditing, addTodo, updateTodoById }) => {
   };
 
   const onChangeDate = (e) => {
-    if (new Date(e.target.value) < new Date(today)) {
-    }
     setDueDate(e.target.value);
   };
 
