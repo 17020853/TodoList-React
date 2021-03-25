@@ -5,7 +5,7 @@ const FormError = ({isHidden}) => {
     return null;
   }
 
-  return <div style={{color: "red"}}>Requied</div>;
+  return <div style={{color: "red"}}>Required</div>;
 };
 
 export default FormError;
